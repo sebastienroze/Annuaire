@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="YHTML"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <OtherUnitFiles Value=".."/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files Count="25">
+      <Item1>
+        <Filename Value="yhtmlcontrol.pas"/>
+        <UnitName Value="YHtmlControl"/>
+      </Item1>
+      <Item2>
+        <Filename Value="..\strprocs.pas"/>
+        <UnitName Value="strprocs"/>
+      </Item2>
+      <Item3>
+        <Filename Value="ytext.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YText"/>
+      </Item3>
+      <Item4>
+        <Filename Value="ybutton.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YButton"/>
+      </Item4>
+      <Item5>
+        <Filename Value="ydiv.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YDiv"/>
+      </Item5>
+      <Item6>
+        <Filename Value="ybr.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YBr"/>
+      </Item6>
+      <Item7>
+        <Filename Value="yinput.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YInput"/>
+      </Item7>
+      <Item8>
+        <Filename Value="ymemo.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YMemo"/>
+      </Item8>
+      <Item9>
+        <Filename Value="ycombo.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YCombo"/>
+      </Item9>
+      <Item10>
+        <Filename Value="ycheckbox.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YCheckBox"/>
+      </Item10>
+      <Item11>
+        <Filename Value="yimage.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YImage"/>
+      </Item11>
+      <Item12>
+        <Filename Value="yscrollbar.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YScrollbar"/>
+      </Item12>
+      <Item13>
+        <Filename Value="ydbinput.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YDBInput"/>
+      </Item13>
+      <Item14>
+        <Filename Value="ydbmemo.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YDBMemo"/>
+      </Item14>
+      <Item15>
+        <Filename Value="ydbgrid.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YDbGrid"/>
+      </Item15>
+      <Item16>
+        <Filename Value="yserver.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YServer"/>
+      </Item16>
+      <Item17>
+        <Filename Value="yhtmldocument.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YHtmlDocument"/>
+      </Item17>
+      <Item18>
+        <Filename Value="yclass.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YClass"/>
+      </Item18>
+      <Item19>
+        <Filename Value="yview.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YView"/>
+      </Item19>
+      <Item20>
+        <Filename Value="ylayout.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YLayout"/>
+      </Item20>
+      <Item21>
+        <Filename Value="ytimer.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YTimer"/>
+      </Item21>
+      <Item22>
+        <Filename Value="ysound.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YSound"/>
+      </Item22>
+      <Item23>
+        <Filename Value="ykeyboard.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YKeyboard"/>
+      </Item23>
+      <Item24>
+        <Filename Value="yjavascript.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YJavascript"/>
+      </Item24>
+      <Item25>
+        <Filename Value="ycanvas.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="YCanvas"/>
+      </Item25>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="IDEIntf"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
